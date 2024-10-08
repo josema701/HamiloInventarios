@@ -1,0 +1,32 @@
+@import './base.css';
+
+.bg-hamilo {
+  background-color: #fcca02 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem !important;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #303644 !important;
+}
+
+.nav-link:hover {
+  font-weight: 500;
+  color: #1d1d1d !important;
+}
+
+.active {
+  font-weight: 500;
+  color: #1d1d1d !important;
+  border-bottom: 1px solid #1d1d1d;
+}
+
+@media screen and (max-width: 575px) {
+  .icono-sm {
+      font-size: 3rem !important;
+  }
+}
